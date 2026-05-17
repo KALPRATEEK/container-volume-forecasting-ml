@@ -62,13 +62,13 @@ def train_and_evaluate() -> pd.DataFrame:
             "model": LinearRegression(),
         },
         {
-           "name": "Elastic Net External",
-           "type": "sklearn",
-           "features": external_features,
-           "model": make_pipeline(
-        StandardScaler(),
-        ElasticNet(alpha=0.5, l1_ratio=0.5, random_state=42, max_iter=50_000),
-        ),
+            "name": "Elastic Net External",
+            "type": "sklearn",
+            "features": external_features,
+            "model": make_pipeline(
+                StandardScaler(),
+                ElasticNet(alpha=0.5, l1_ratio=0.5, random_state=42, max_iter=50_000),
+            ),
         },
         {
             "name": "XGBoost Internal Only",
