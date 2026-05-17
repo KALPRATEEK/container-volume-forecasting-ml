@@ -1,5 +1,5 @@
 from pathlib import Path
-
+from container_forecasting.models.train import train_and_evaluate
 import matplotlib.pyplot as plt
 import pandas as pd
 import streamlit as st
@@ -14,7 +14,9 @@ st.markdown("""
     """)
 
 results_path = Path("reports/model_results.csv")
-
+if not results_path.exists():
+    with st.spinner("Generating synthetic demo results..."):
+        train_and_evaluate()
 if results_path.exists():
     results = pd.read_csv(results_path)
     st.subheader("Model Comparison")
