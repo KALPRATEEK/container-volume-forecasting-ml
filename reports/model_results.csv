@@ -1,0 +1,6 @@
+model,MAE,RMSE,MAPE,Directional_Accuracy
+Seasonal Naive,507.04,637.02,6.51,68.42
+Linear Regression Internal,366.94,493.74,4.82,69.47
+Elastic Net External,406.14,528.46,5.34,65.26
+XGBoost Internal Only,413.38,526.07,5.34,68.42
+XGBoost With External Indicators,427.02,531.84,5.5,69.47

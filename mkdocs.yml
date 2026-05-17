@@ -1,0 +1,15 @@
+site_name: Container Volume Forecasting ML
+site_description: Public-safe machine learning project for container-volume forecasting
+theme:
+  name: material
+  features:
+    - navigation.sections
+    - navigation.top
+    - content.code.copy
+
+nav:
+  - Home: index.md
+  - Methodology: methodology.md
+  - Architecture: architecture.md
+  - Model Design: model_design.md
+  - Confidentiality: confidentiality.md
