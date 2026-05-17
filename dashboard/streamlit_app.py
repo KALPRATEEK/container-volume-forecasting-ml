@@ -1,8 +1,10 @@
 from pathlib import Path
-from container_forecasting.models.train import train_and_evaluate
+
 import matplotlib.pyplot as plt
 import pandas as pd
 import streamlit as st
+
+from container_forecasting.models.train import train_and_evaluate
 
 st.set_page_config(page_title="Container Volume Forecasting", layout="wide")
 
