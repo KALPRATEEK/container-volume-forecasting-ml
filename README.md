@@ -1,7 +1,7 @@
 # Container Volume Forecasting with Machine Learning
 
-![CI](https://github.com/your-username/container-volume-forecasting-ml/actions/workflows/ci.yml/badge.svg)
-![Docs](https://github.com/your-username/container-volume-forecasting-ml/actions/workflows/docs.yml/badge.svg)
+![CI](https://github.com/KALPRATEEK/container-volume-forecasting-ml/actions/workflows/ci.yml/badge.svg)
+![Docs](https://github.com/KALPRATEEK/container-volume-forecasting-ml/actions/workflows/docs.yml/badge.svg)
 
 A public, anonymized machine learning project for forecasting monthly container-volume movements using time-series feature engineering, external macroeconomic/logistics indicators, model comparison, and an interactive dashboard.
 
@@ -157,3 +157,18 @@ This project does not include:
 - Confidential documentation
 
 All data is synthetic and generated only to demonstrate the technical workflow.
+
+
+---
+
+## Dashboard Preview
+
+The project includes a Streamlit dashboard for comparing forecasting models and inspecting actual vs predicted monthly container volume.
+
+### Model Comparison and Forecast Plot
+
+![Dashboard graph and table](docs/assets/graph_table.jpg)
+
+### Forecasting Metrics Overview
+
+![Dashboard metrics overview](docs/assets/stats_1.jpg)
